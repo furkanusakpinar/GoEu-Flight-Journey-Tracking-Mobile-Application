@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore"; // Firestore'u içeri aktar
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA4oiPNY-MHaE8fSQ998xbEo1dia7s6ZDE",
-  authDomain: "goeu-876f2.firebaseapp.com",
-  projectId: "goeu-876f2",
-  storageBucket: "goeu-876f2.firebasestorage.app",
-  messagingSenderId: "51228696083",
-  appId: "1:51228696083:web:c6457c2a75122eb1fa29e6",
-  measurementId: "G-9DZVRPSQT9"
+  apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+  authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+  measurementId: process.env.EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID
 };
 
 // Firebase'i başlat
