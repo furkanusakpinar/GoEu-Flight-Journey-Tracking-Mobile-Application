@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+# ✈️ Flight Journey Tracker Mobil Uygulaması
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png" width="120" alt="Flight App Logo" />
+</p>
 
-## Get started
+<p align="center">
+  <strong>Seyahatlerini Akıllı Takip Et</strong><br />
+  Uçuş, Hava Durumu ve Geri Sayım Hepsi Tek Uygulamada!
+</p>
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+<p align="center">
 
-2. Start the app
+![React Native](https://img.shields.io/badge/React%20Native-0.7x-blue?style=for-the-badge&logo=react)
+![Expo](https://img.shields.io/badge/Expo-SDK-black?style=for-the-badge&logo=expo)
+![Firebase](https://img.shields.io/badge/Firebase-Firestore-orange?style=for-the-badge&logo=firebase)
+![API](https://img.shields.io/badge/API-OpenWeather%20%7C%20Pixabay-yellow?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-lightgrey?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
-   ```bash
-   npx expo start
-   ```
+</p>
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📱 Uygulama Hakkında
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Bu uygulama, kullanıcıların uçuş ve seyahat planlarını modern bir arayüz ile takip edebilmesi için geliştirilmiştir.  
+Gerçek zamanlı veri, animasyonlar ve dinamik içeriklerle zenginleştirilmiş bir deneyim sunar.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ✨ Temel Özellikler
 
+- ✈️ **Uçuş Yönetimi**: Gezi ekleme, düzenleme ve silme
+- ⏳ **Canlı Geri Sayım**: Gün / saat / dakika / saniye bazlı takip
+- 🌦️ **Anlık Hava Durumu**: Kalkış ve varış şehirleri için canlı veri
+- 📅 **Hava Tahmini**: Seyahat tarihine özel forecast sistemi
+- 🎥 **Dinamik Arka Plan**: Şehre özel video ve görseller
+- 🔐 **Admin Panel**: Güvenli giriş ve yönetim sistemi
+- 🔄 **Realtime Sync**: Firebase ile anlık veri güncelleme
+- 💎 **Premium UI/UX**: Blur efektler, animasyonlar ve modern tasarım
+
+---
+
+## 🛠️ Teknoloji Yığını
+
+- **Framework**: React Native (Expo)
+- **Veritabanı**: Firebase Firestore
+- **API**: OpenWeather API, Pixabay API
+- **Video & UI**: Expo Video, Expo Blur
+- **Animasyon**: React Native Animated & SVG
+
+---
+
+## 🚀 Kurulum
+
+1. **Projeyi klonla**
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/yourusername/flight-tracker.git
